@@ -10,7 +10,7 @@
 	df = diff
 	dfs = diff --staged
 	lg = log --oneline --decorate --graph --abbrev-commit
-    fp = push --force-with-lease
+        fp = push --force-with-lease
 [push]
 	default = simple
 [pull]
