@@ -11,6 +11,7 @@
 	dfs = diff --staged
 	lg = log --oneline --decorate --graph --abbrev-commit
 	fp = push --force-with-lease
+	rb = git fetch && git rebase origin/main 
 [push]
 	default = simple
 [pull]
