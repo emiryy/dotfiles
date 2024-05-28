@@ -45,6 +45,3 @@ alias ll="ls -lAhG"
 alias reload-zsh="source ~/.zshrc"
 alias gitlogs="git log --graph --pretty=format:'%C(auto)%h%d %s %C(green)(%cr) %C(cyan)[%an]%C(reset)'"
 alias gitlog="gitlogs -n 25"
-
-# Install bazel binaries
-pnpm add -g @bazel/bazelisk @bazel/ibazel @bazel/buildifier @bazel/buildozer > /dev/null
