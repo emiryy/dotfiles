@@ -13,7 +13,6 @@ plugins=(
   autojump
   fzf
   git
-  yarn
   history
   last-working-dir
   zsh-autosuggestions
@@ -36,9 +35,6 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 # My Custom Exports
 export SHOPIFY="/src/github.com/shopify"
-
-# Configure Yarn global path
-export PATH="$(yarn global bin):$PATH"
 
 # Custom User config
 alias ll="ls -lAhG"
