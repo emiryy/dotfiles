@@ -12,7 +12,7 @@ sudo apt-get install autojump
 sudo apt-get install -y fzf
 
 # Install Yarn Packages
-yarn global add rebase-editor
+npm install -g rebase-editor
 
 # Update the git config
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
